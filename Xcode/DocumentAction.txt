@@ -1,0 +1,17 @@
+用户当前位于文件：{{filename}}
+文件内容如下：
+```swift:{{filename}}
+{{filecontent}}
+```
+
+用户在该文件中选中了以下代码：
+```swift
+{{selected_code}}
+```
+
+用户的请求：
+
+为 `{{selected_code}}` 编写文档注释。
+
+- 仅返回一个代码块。
+- 只包含“文档注释”，不要包含任何其他 Swift 代码。
